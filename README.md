@@ -1,5 +1,5 @@
 # Menu Utils
-A simple library to create simple CUI menus that work using the arrow keys  
+A simple library to create simple CUI menus that work using the arrow keys and enter  
 
 ## Usage
 At the top of your program write `using MenuCreator;`
