@@ -1,0 +1,14 @@
+C:\Users\nicol\source\repos\MenuCreator\MenuCreator\bin\Debug\netcoreapp3.1\MenuCreator.exe
+C:\Users\nicol\source\repos\MenuCreator\MenuCreator\bin\Debug\netcoreapp3.1\MenuCreator.deps.json
+C:\Users\nicol\source\repos\MenuCreator\MenuCreator\bin\Debug\netcoreapp3.1\MenuCreator.runtimeconfig.json
+C:\Users\nicol\source\repos\MenuCreator\MenuCreator\bin\Debug\netcoreapp3.1\MenuCreator.runtimeconfig.dev.json
+C:\Users\nicol\source\repos\MenuCreator\MenuCreator\bin\Debug\netcoreapp3.1\MenuCreator.dll
+C:\Users\nicol\source\repos\MenuCreator\MenuCreator\bin\Debug\netcoreapp3.1\MenuCreator.pdb
+C:\Users\nicol\source\repos\MenuCreator\MenuCreator\obj\Debug\netcoreapp3.1\MenuCreator.csproj.AssemblyReference.cache
+C:\Users\nicol\source\repos\MenuCreator\MenuCreator\obj\Debug\netcoreapp3.1\MenuCreator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nicol\source\repos\MenuCreator\MenuCreator\obj\Debug\netcoreapp3.1\MenuCreator.AssemblyInfoInputs.cache
+C:\Users\nicol\source\repos\MenuCreator\MenuCreator\obj\Debug\netcoreapp3.1\MenuCreator.AssemblyInfo.cs
+C:\Users\nicol\source\repos\MenuCreator\MenuCreator\obj\Debug\netcoreapp3.1\MenuCreator.csproj.CoreCompileInputs.cache
+C:\Users\nicol\source\repos\MenuCreator\MenuCreator\obj\Debug\netcoreapp3.1\MenuCreator.dll
+C:\Users\nicol\source\repos\MenuCreator\MenuCreator\obj\Debug\netcoreapp3.1\MenuCreator.pdb
+C:\Users\nicol\source\repos\MenuCreator\MenuCreator\obj\Debug\netcoreapp3.1\MenuCreator.genruntimeconfig.cache
