@@ -10,7 +10,7 @@ namespace MenuCreator
             string[] pieces = Regex.Split(msg, @"(\[[^\]]+\])");
             for (int i = 0; i < pieces.Length; i++)
             {
-                if(pieces[i].StartsWith("[") && pieces[i].EndsWith("]"))
+                if (pieces[i].StartsWith("[") && pieces[i].EndsWith("]"))
                 {
                     Console.ForegroundColor = c;
                     pieces[i] = pieces[i].Substring(i, pieces[i].Length - 2);
@@ -31,10 +31,10 @@ namespace MenuCreator
             Console.WriteLine(title);
 
             int menuStartTop = Console.CursorTop;
-            
+
             // Impostazione del cursore a invisibile per estetica
             Console.CursorVisible = false;
-            
+
             // Scrittura delle opzioni
             for (int i = 0; i < options.Length; i++)
             {
@@ -56,10 +56,10 @@ namespace MenuCreator
                 {
                     // Navigazione delle opzioni
                     case ConsoleKey.UpArrow:
-                        currentOption = currentOption > menuStartTop ? currentOption - menuStartTop : menuStartTop + (options.Length - 1);
+                        currentOption = currentOption > menuStartTop ? currentOption - 1 : menuStartTop + (options.Length - 1);
                         break;
                     case ConsoleKey.DownArrow:
-                        currentOption = currentOption < options.Length ? menuStartTop + ((currentOption) % options.Length) : menuStartTop;
+                        currentOption = currentOption < (options.Length + menuStartTop) - 1 ? 1 + ((currentOption) % (options.Length + menuStartTop)) : menuStartTop;
                         break;
                 }
                 Console.SetCursorPosition(0, oldOption);
@@ -71,7 +71,7 @@ namespace MenuCreator
                 oldOption = currentOption;
 
             } while (key.Key != ConsoleKey.Enter);
-            
+
             // Cancellazione del menu dalla console
             for (int i = options.Length - 1; i >= menuStartTop - 1; i--)
             {
